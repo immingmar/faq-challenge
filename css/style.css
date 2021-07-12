@@ -1,0 +1,52 @@
+
+
+body {
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 70%;
+    height: 500px;
+    margin: 100px 0 50px 200px;  
+    border-radius:  10px; 
+    overflow: hidden; 
+    
+}
+
+.background-pattern {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    padding: 0;
+   
+    
+} 
+
+
+
+.box-image {
+    position: absolute;
+    top: 305px;
+    left: 115px;
+}
+
+.woman-image {
+    position: relative;
+    right: 80px;
+}
+
+
+
+
+
+
+
+
+
+
