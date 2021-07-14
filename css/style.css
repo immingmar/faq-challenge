@@ -1,52 +1,64 @@
-
-
 body {
-    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 12px;
+	background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+	font-family: "Kumbh Sans", sans-serif;
+	font-size: 12px;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    background-color: white;
-    width: 70%;
-    height: 500px;
-    margin: 100px 0 50px 200px;  
-    border-radius:  10px; 
-    overflow: hidden; 
-    
+	height: 80vh;
+	width: 70vw;
+	background-color: aliceblue;
+	border-radius: 8px;
+	display: flex;
+	justify-content: flex-start;
 }
 
-.background-pattern {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 50%;
-    padding: 0;
-   
-    
-} 
-
-
-
-.box-image {
-    position: absolute;
-    top: 305px;
-    left: 115px;
-}
-
-.woman-image {
+.images {
+	width: 50%;
+	display: flex;
+	align-items: center;
     position: relative;
-    right: 80px;
 }
 
+.content {
+	width: 50%;
+}
 
+.image1 {
+	background-repeat: no-repeat;
+	width: 40em;
+	height: 35em;
+	background-image: url("../images/illustration-woman-online-desktop.svg");
+    position: absolute;
+    right: 0px
+}
 
+.image2 {
+    background-image: url("../images/illustration-box-desktop.svg");
+    width: 12em;
+    height: 10em;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 15em;
+    right: 28.5em;
+}
 
+.image3 {
+    height: 40em;
+    width: 40em;
+}
 
-
-
-
-
-
+.image3 img {
+    width: 190%;
+    min-height: 80%;
+    position: absolute;
+    top: -160px;
+    right: 25px;
+}
